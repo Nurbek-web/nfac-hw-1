@@ -9,7 +9,7 @@ export default function BlogList() {
     <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4 md:p-6">
         
         {data.map((blog) => (
-            <BlogCard blog={blog}/>
+            <BlogCard blog={blog} key={blog.id}/>
         ))}
     </section>
   )
