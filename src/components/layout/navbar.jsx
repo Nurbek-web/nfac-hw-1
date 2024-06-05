@@ -7,13 +7,13 @@ export default function Navbar() {
   return (
     <header className="w-full bg-white shadow-sm dark:bg-gray-950">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
-        <Link href="#" className="flex items-center gap-2" prefetch={false}>
+        <Link href="/" className="flex items-center gap-2" prefetch={false}>
           <MountainIcon className="h-6 w-6" />
           <span className="text-lg font-bold">Blog</span>
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
           <Link
-            href="#"
+            href="/"
             className="text-gray-700 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
             prefetch={false}
           >

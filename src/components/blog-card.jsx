@@ -5,7 +5,7 @@ export default function BlogCard({blog}) {
         <>
         <div className="bg-white rounded-lg shadow-lg overflow-hidden dark:bg-gray-950">
         <div className="p-4">
-          <Link href="#" className="block" prefetch={false}>
+          <Link href={`/${blog.id}`} className="block" prefetch={false}>
             <h3 className="text-lg font-semibold mb-2 hover:text-primary dark:hover:text-primary-400">
               {blog.title}
             </h3>

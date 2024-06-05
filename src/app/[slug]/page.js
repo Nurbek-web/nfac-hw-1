@@ -1,3 +1,4 @@
+import BlogDetail from "@/components/blog-detail";
 import data from "@/lib/data.json";
 
 export default function Page({ params }) {
@@ -9,5 +10,9 @@ export default function Page({ params }) {
     return <p>Blog post not found</p>;
   }
 
-  return <>{params.slug}</>;
+  return (
+    <>
+      <BlogDetail blog={blog} />
+    </>
+  );
 }
