@@ -12,13 +12,7 @@ export default function Navbar() {
           <span className="text-lg font-bold">Blog</span>
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
-          <Link
-            href="/"
-            className="text-gray-700 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-            prefetch={false}
-          >
-            Home
-          </Link>
+       
           <Link
             href="#"
             className="text-gray-700 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
@@ -27,18 +21,11 @@ export default function Navbar() {
             Blog
           </Link>
           <Link
-            href="#"
+            href="/about"
             className="text-gray-700 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
             prefetch={false}
           >
             About
-          </Link>
-          <Link
-            href="#"
-            className="text-gray-700 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-            prefetch={false}
-          >
-            Contact
           </Link>
         </nav>
         <Sheet>
